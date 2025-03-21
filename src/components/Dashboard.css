@@ -1,0 +1,82 @@
+/* Dashboard.css */
+
+/* Dashboard container styles */
+.dashboard-container {
+  
+  background-color: #1a1a1a; /* Dark background for the dashboard */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+/* Dashboard title styles */
+.dashboard-title {
+  font-weight: bold;
+  
+  margin-bottom: 20px;
+  color: #b4eb0d; /* White text for the title */
+  font-size: 2rem; /* Larger font size for the title */
+}
+
+/* Points display styles */
+.points-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ede6e4; /* Color for points display */
+}
+
+/* Button styles for earning points and completing activities */
+
+
+/* Activity button styles */
+.activity-button {
+  background-color: #4caf50; /* Green for activity buttons */
+  color: rgb(194, 186, 186);
+  transition: background-color 0.3s; /* Smooth background color transition */
+  
+}
+
+.activity-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Responsive styles for buttons */
+@media (max-width: 600px) {
+  .earn-points-button,
+  .complete-activity-button {
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 10px; /* Space below buttons */
+  }
+}
+.daily-tasks{
+    margin: 20px;
+    padding: 10px;
+    
+
+}
+/* History styles */
+.history-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2a2a2a; /* Darker gray background for history */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* History item styles */
+.history-item {
+  margin: 5px 0;
+  padding: 5px;
+  border-bottom: 1px solid #444; /* Darker border for history items */
+  color: #ffffff; /* White text for history items */
+}
+
+.history-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}

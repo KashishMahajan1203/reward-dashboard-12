@@ -1,0 +1,21 @@
+/* RedeemModal.css */
+
+/* Modal styles */
+.MuiModal-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiBox-root {
+    border-radius: 8px; /* Rounded corners for the modal */
+}
+
+/* Typography styles */
+#redeem-modal-title {
+    color: #333; /* Dark color for the title */
+}
+
+#redeem-modal-description {
+    color: #666; /* Gray color for the description */
+}

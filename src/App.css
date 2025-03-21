@@ -1,0 +1,128 @@
+/* App.css */
+
+/* General body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000; /* Black background */
+  margin: 0;
+  padding: 0;
+  color: #ffffff; /* White text for better contrast */
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White text for headings */
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+}
+
+/* Card styles */
+.MuiCard-root {
+  transition: transform 0.2s;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Light shadow for cards */
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+/* Modal styles */
+.MuiModal-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiBox-root {
+  border-radius: 8px;
+}
+
+/* Input field styles */
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+/* Grid styles */
+.MuiGrid-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Button styles for different actions */
+.MuiButton-contained {
+  background: linear-gradient(45deg, #FF5733, #FFC300); /* Gradient color */
+  color: white;
+  padding: 10px 20px; /* Add padding for better spacing */
+  margin: 10px 0; /* Add margin for spacing between buttons */
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(45deg, #C70039, #FF5733); /* Darker gradient on hover */
+}
+
+.MuiButton-outlined {
+  border-color: #FF5733; /* Primary color */
+  color: #FF5733;
+}
+
+.MuiButton-outlined:hover {
+  background-color: rgba(255, 87, 51, 0.1); /* Light background on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+
+  .MuiGrid-item {
+      flex-direction: column;
+  }
+}
+
+/* Reward item styles */
+.reward-item {
+  margin: 10px;
+}
+
+/* Typography for reward descriptions */
+.reward-description {
+  font-size: 0.9rem;
+  color: #cccccc; /* Light gray for descriptions */
+}
+
+/* Activity button styles */
+.activity-button {
+  margin: 10px; /* Increased margin for spacing */
+}
+
+/* History styles */
+.history-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1a1a1a; /* Dark gray background for history */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* History item styles */
+.history-item {
+  margin: 5px 0;
+  padding: 5px;
+  border-bottom: 1px solid #333; /* Darker border for history items */
+}
+
+.history-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
