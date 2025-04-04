@@ -1,6 +1,6 @@
 # Appversal Project
 
-![App Screenshot](https://reward-dashboard12.netlify.app/)
+[LIVE DEMO](https://reward-dashboard12.netlify.app/dashboard)
 
 ## 🚀 Overview
 Appversal is a powerful platform designed to provides users with seamless interaction, efficient data management, and an intuitive user experience. Appversal offers a reliable and scalable solution.
